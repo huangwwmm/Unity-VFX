@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: e82a4f580d77dec4d8cc22e2e2d6ee44, type: 3}
+  m_Name: VFX_Config
+  m_EditorClassIdentifier: 
+  GeneratePath: Assets/Example/
+  VFXAddressableAssetGroup: {fileID: 11400000, guid: 9e710fdd29611fe48ab80a8b762cb5eb,
+    type: 2}
+  ConfigTemplate: {fileID: 11500000, guid: b3c18700e55e7ef4b85544e607949946, type: 3}
+  Effects:
+  - {fileID: 7918556968466992444, guid: e32b95c15cd4a8640b115a2d2532ece3, type: 3}
+  - {fileID: 3219889763801731947, guid: 048cf6e40f52594498e9b2ae37615874, type: 3}
