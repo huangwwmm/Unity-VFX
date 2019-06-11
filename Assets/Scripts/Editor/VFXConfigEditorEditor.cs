@@ -78,6 +78,7 @@ namespace VFX
 				vfxPrefabs.Add(iterEffect);
 			}
 			VFXConfigForEditorLoader.Get().EffectPrefabs = vfxPrefabs.ToArray();
+			VFXConfigForEditorLoader.Save();
 
 			string[] configTemplateLines = config.ConfigTemplate.text.Split(new char[] { '\n' });
 			StringBuilder stringBuilder = new StringBuilder();

@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b33ded4c0c8944e9327821972e61ac, type: 3}
   m_Name: VFX_Config_ForEditor
   m_EditorClassIdentifier: 
+  EffectPrefabs:
+  - {fileID: 7918556968466992444, guid: e32b95c15cd4a8640b115a2d2532ece3, type: 3}
+  - {fileID: 3219889763801731947, guid: 048cf6e40f52594498e9b2ae37615874, type: 3}
